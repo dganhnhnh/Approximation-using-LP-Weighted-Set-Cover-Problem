@@ -224,7 +224,7 @@ for test_no in range(test_case):
 #print(lp_cost)
 
 
-with open('G:\\report.csv', 'w',newline='') as mycsvfile:
+with open('report.csv', 'w',newline='') as mycsvfile:
     thedatawriter = csv.writer(mycsvfile, dialect='mydialect')
     
     for row in final_data:

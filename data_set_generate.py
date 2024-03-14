@@ -52,7 +52,7 @@ while(p<=test_case):
         sample["weight"]=weight
         all_sample.append(sample)
 
-with open('G:\\testcase1_generate.txt', 'w') as f:
+with open('testcase1_generate.txt', 'w') as f:
 
     f.write(str(len(all_sample))+"\n")
     for s in all_sample:
